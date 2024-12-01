@@ -20,34 +20,74 @@ This tutorial outlines the post-install configuration of the open-source help de
 
 <h2>Post-Install Configuration Objectives</h2>
 
-- Item 1
-- Item 2
-- Item 3
-- Item 4
-- Item 5
+- Configure Roles
+- Configure Teams and Departments
+- Configure Agents
+- Configure SLA
+- Create Help Topics
 
 <h2>Configuration Steps</h2>
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/OfwXNrY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
-
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+To configure roles, go to: Admin Panel > Agents > Roles. Add role. Name it and enable all ticket permissions.
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/poOcW2j.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Go to Admin Panel > Agents > Departments, Name the department and select a manager. Click "Creat Dept".
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/6uIWQwR.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+go to Admin Panel -> Agents -> Teams. Select "Add team". Name it "Level II Support" and add member by clicking on "Members" tab.
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/bV13rN3.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Go to Admin Panel -> Agents and click "Add new agent". Create name and email. Press the set password button. Deselect the "Send the agent a password reset" box and create a password. Deselect the "require password change" box and press "set". Click on "Access" tab and select "System Administrators". Also select the department you created. In extended access below, select the department you created and add "support" department as well. Next, click on "teams" tab and select the team you created. Click "Create".
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/4jLUdib.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Add another agent with limited permissions. To create users, go to Agent Panel > Users > and click on "Add user". Create name, email and password. Click "Add User".
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/4jLUdib.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Add another agent with limited permissions. To create users, go to Agent Panel > Users > and click on "Add user". Create name, email and password. Click "Add User".
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/JcOl07P.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Go to Admin Panel > Manage > SLA and click "add new SLA plan". Place these settings for Sev-A: (1 hour, 24/7). Sev-B will be (4 hours, 24/7) and Sev-C will be (8 hours, Monday - Friday).
+</p>
+<br />
+
+<p>
+<img src="https://i.imgur.com/SXXyokb.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Go to Admin Panel > Manage > Help Topics and click "Add help topic". Title the first one "Critical Outage", the second "Computer Issues", and lastly "Password Reset". Log into the user portal of osTicket at: http://localhost/osTicket/. Use a user you created to create tickets.
 </p>
 <br />
